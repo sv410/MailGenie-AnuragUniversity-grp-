@@ -52,5 +52,14 @@
     "verified": true,
     "id": "6",
     "createdAt": "2025-08-29T09:09:33.205Z"
+  },
+  {
+    "firstName": "varun",
+    "lastName": "reddy",
+    "email": "varunreddy212@gmail.com",
+    "password": "$2b$12$ZsQ0Glk9BSpXHs9oug/pR.iOHce5KgYyQn0R1SD9s4l1Qung6h8XC",
+    "verified": true,
+    "id": "7",
+    "createdAt": "2025-08-29T11:28:00.209Z"
   }
 ]

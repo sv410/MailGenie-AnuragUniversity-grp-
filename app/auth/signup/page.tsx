@@ -137,7 +137,7 @@ export default function SignupPage() {
         </div>
 
         {/* Signup Form */}
-        <Card className="border-purple-100 shadow-xl">
+  <Card className="border-0 shadow-xl bg-white/80 backdrop-blur-md">
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl font-bold text-center text-gray-800">Sign Up</CardTitle>
           </CardHeader>

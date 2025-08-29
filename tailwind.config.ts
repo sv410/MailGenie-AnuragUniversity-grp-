@@ -17,21 +17,21 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#00B16A', // Green for CTAs and highlights
-          hover: '#01925a',
+          DEFAULT: '#8B5CF6', // Purple for CTAs and highlights
+          hover: '#7C3AED',
         },
         secondary: {
-          DEFAULT: '#1E968A', // Aqua green for branding accents
+          DEFAULT: '#A78BFA', // Lighter purple for accents
         },
-        gradientFrom: '#DFF7F1', // Gradient start
-        gradientTo: '#F6FFFD',   // Gradient end
+        gradientFrom: '#F3E8FF', // Purple gradient start
+        gradientTo: '#EDE9FE',   // Purple gradient end
         text: {
-          DEFAULT: '#1A2B3C', // Dark navy for text
+          DEFAULT: '#1A2B3C', // Keep dark navy for text for contrast
         },
         neutral: {
           white: '#FFFFFF',
-          light: '#F9FBFC',
-          shadow: '#E6EAEA',
+          light: '#F6F2FF',
+          shadow: '#E9D5FF',
         },
         accent: {
           yellow: '#FFC542',

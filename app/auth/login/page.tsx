@@ -57,10 +57,10 @@ export default function LoginPage() {
   }
 
   return (
-  <div className="min-h-screen bg-primary flex items-center justify-center p-4">
+  <div className="min-h-screen bg-gradient-to-br from-gradientFrom/60 to-gradientTo/80 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         {/* Header */}
-        <div className="text-center mb-8">
+  <div className="text-center mb-8 text-primary">
           <Link href="/" className="inline-flex items-center space-x-2 mb-6 text-purple-600 hover:text-purple-700 transition-colors">
             <ArrowLeft className="w-4 h-4 text-white" />
             <span className="text-white">Back to Home</span>
@@ -70,26 +70,26 @@ export default function LoginPage() {
               <Mail className="w-6 h-6 text-secondary" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent">
-              <span className="text-2xl font-bold text-white">MailGenie</span>
+              <span className="text-2xl font-bold text-primary">MailGenie</span>
             </span>
           </div>
-          <Badge className="mb-4 bg-purple-100 text-purple-700 hover:bg-purple-200 transition-colors">
+          <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
             <Sparkles className="w-4 h-4 mr-1 text-secondary" />
             <span className="text-secondary">AI-Powered Email Assistant</span>
           </Badge>
-          <h1 className="text-3xl font-bold text-white mb-2">Welcome back</h1>
-          <p className="text-secondary">Sign in to your MailGenie account</p>
+          <h1 className="text-3xl font-bold text-primary mb-2">Welcome back</h1>
+          <p className="text-primary/70">Sign in to your MailGenie account</p>
         </div>
 
         {/* Login Form */}
-  <Card className="border-0 shadow-xl bg-primary/90">
+  <Card className="border-0 shadow-xl bg-white/90 backdrop-blur-md">
           <CardHeader className="space-y-1">
-            <CardTitle className="text-2xl font-bold text-center text-white">Sign In</CardTitle>
+            <CardTitle className="text-2xl font-bold text-center text-primary">Sign In</CardTitle>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleLogin} className="space-y-4">
               <div className="space-y-2">
-                <Label htmlFor="email" className="text-white font-medium">
+                <Label htmlFor="email" className="text-primary font-medium">
                   Email Address
                 </Label>
                 <div className="relative">
@@ -100,14 +100,14 @@ export default function LoginPage() {
                     placeholder="Enter your email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="pl-10 border-secondary/40 focus:border-secondary focus:ring-secondary bg-primary/30 text-white placeholder:text-secondary/60"
+                    className="pl-10 border-secondary/40 focus:border-secondary focus:ring-secondary bg-primary/10 text-primary placeholder:text-primary/50"
                     required
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="password" className="text-white font-medium">
+                <Label htmlFor="password" className="text-primary font-medium">
                   Password
                 </Label>
                 <div className="relative">
@@ -118,7 +118,7 @@ export default function LoginPage() {
                     placeholder="Enter your password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="pl-10 pr-10 border-secondary/40 focus:border-secondary focus:ring-secondary bg-primary/30 text-white placeholder:text-secondary/60"
+                    className="pl-10 pr-10 border-secondary/40 focus:border-secondary focus:ring-secondary bg-primary/10 text-primary placeholder:text-primary/50"
                     required
                   />
                   <button
@@ -138,11 +138,11 @@ export default function LoginPage() {
                     id="remember"
                     className="rounded border-secondary/40 text-secondary focus:ring-secondary"
                   />
-                  <Label htmlFor="remember" className="text-sm text-secondary/80">
+                  <Label htmlFor="remember" className="text-sm text-primary/70">
                     Remember me
                   </Label>
                 </div>
-                <Link href="/auth/forgot-password" className="text-sm text-secondary hover:text-white font-medium">
+                <Link href="/auth/forgot-password" className="text-sm text-primary/70 hover:text-primary font-medium">
                   Forgot password?
                 </Link>
               </div>
@@ -167,9 +167,9 @@ export default function LoginPage() {
             </form>
 
             <div className="mt-6 text-center">
-              <p className="text-secondary/80">
+              <p className="text-primary/70">
                 Don't have an account?{" "}
-                <Link href="/auth/signup" className="text-secondary hover:text-white font-medium">
+                <Link href="/auth/signup" className="text-primary hover:text-primary/80 font-medium">
                   Sign up
                 </Link>
               </p>
