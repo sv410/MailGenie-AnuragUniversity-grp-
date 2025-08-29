@@ -1,0 +1,10 @@
+[
+  {
+    "userId": "6",
+    "emailContent": "REPLY TO HR",
+    "tone": "empathetic",
+    "reply": "Hi [Recipient],\n\nI can see this situation is important to you, and I want to make sure we address it properly.\n\n[Your message content here]\n\nI'm here to support you through this.\n\nWarm regards,\n[Your name]",
+    "id": "1",
+    "createdAt": "2025-08-29T09:10:33.988Z"
+  }
+]

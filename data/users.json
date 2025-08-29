@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "verified": true,
+    "createdAt": "2025-08-23T10:08:35.257Z"
+  },
+  {
+    "id": "2",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane@example.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "verified": true,
+    "createdAt": "2025-08-23T10:08:35.257Z"
+  },
+  {
+    "firstName": "Srivani",
+    "lastName": "arjun",
+    "email": "22eg110d30@anurag.edu.in",
+    "password": "$2b$12$Wt.7/DNoEafgMztm8KATWOi8HR3hhi7uOp2nvs2WWhqraK.or3jwO",
+    "verified": true,
+    "id": "3",
+    "createdAt": "2025-08-23T10:08:37.473Z"
+  },
+  {
+    "firstName": "Srivani",
+    "lastName": "arjun",
+    "email": "22eg110d24@anurag.edu.in",
+    "password": "$2b$12$WotR4.KQJtXzWVd0d9n1Ve17Ir1d4v/eOwJORvPZuRKpLp0jwSVQG",
+    "verified": true,
+    "id": "4",
+    "createdAt": "2025-08-29T07:50:47.091Z"
+  },
+  {
+    "firstName": "rohit",
+    "lastName": "varma",
+    "email": "rohithvarma@gmail.com",
+    "password": "$2b$12$GoCvqY/.2NN9PunTxwXvlOtqiFCfTnB4NFmU.cqMiVAflUdELiGaG",
+    "verified": true,
+    "id": "5",
+    "createdAt": "2025-08-29T08:31:04.901Z"
+  },
+  {
+    "firstName": "meena",
+    "lastName": "s",
+    "email": "meenakshisundar@gamil.com",
+    "password": "$2b$12$QgM0NQ4aG9TLPl54KJGlsOxzekVzeIaYBnQTRbPwylw3ISwH9kgLq",
+    "verified": true,
+    "id": "6",
+    "createdAt": "2025-08-29T09:09:33.205Z"
+  }
+]
