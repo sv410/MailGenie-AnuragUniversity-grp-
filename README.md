@@ -196,3 +196,6 @@ For support and questions:
 ---
 
 **MailGenie** - Transform your email workflow with AI-powered intelligence! ✨
+=======
+# MailGenie-AnuragUniversity-grp-
+>>>>>>> cd14fdf0415c45e68644c313db9d023cc9928878
