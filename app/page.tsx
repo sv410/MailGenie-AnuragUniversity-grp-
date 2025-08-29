@@ -7,7 +7,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Mail, Zap, Palette, Chrome, Shield, Download, ArrowRight, Sparkles, MessageSquare, CheckCircle, Menu, X, Star, Users, Clock, TrendingUp } from "lucide-react"
 import Link from "next/link"
-import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function HomePage() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -123,7 +122,6 @@ export default function HomePage() {
                 </Button>
               </Link>
               <div className="pl-2">
-                <ThemeToggle />
               </div>
             </div>
 
@@ -181,7 +179,6 @@ export default function HomePage() {
                   </Button>
             </Link>
                 <div className="pt-2">
-                  <ThemeToggle />
                 </div>
               </div>
             </div>
